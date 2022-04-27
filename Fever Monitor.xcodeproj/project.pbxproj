@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B0705D924E97992003F6018 /* NormalTemp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0705D824E97992003F6018 /* NormalTemp.swift */; };
+		3B8B860224EA4B54003CFB21 /* FirstSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8B860124EA4B54003CFB21 /* FirstSettings.swift */; };
+		3B8B860524EA4B92003CFB21 /* AddFeverInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8B860424EA4B92003CFB21 /* AddFeverInfo.swift */; };
+		3BBE1D8824E961BF00928813 /* Fever_MonitorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBE1D8724E961BF00928813 /* Fever_MonitorApp.swift */; };
+		3BBE1D8A24E961BF00928813 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBE1D8924E961BF00928813 /* ContentView.swift */; };
+		3BBE1D8C24E961C100928813 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BBE1D8B24E961C100928813 /* Assets.xcassets */; };
+		3BBE1D8F24E961C100928813 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BBE1D8E24E961C100928813 /* Preview Assets.xcassets */; };
+		3BBE1D9924E9626500928813 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BBE1D9824E9626500928813 /* HealthKit.framework */; };
+		3BCE2F1D24EE765E006DCAF5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3BCE2F1F24EE765E006DCAF5 /* Localizable.strings */; };
+		3BCE2F2724EF6D9A006DCAF5 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCE2F2624EF6D9A006DCAF5 /* Notification.swift */; };
+		3BCE2F2924EF9880006DCAF5 /* Completion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCE2F2824EF9880006DCAF5 /* Completion.swift */; };
+		3BDC61F624ED26F100F8AFC0 /* NormalTempView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDC61F524ED26F100F8AFC0 /* NormalTempView.swift */; };
+		3BDC61F824ED26FF00F8AFC0 /* Attributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDC61F724ED26FF00F8AFC0 /* Attributes.swift */; };
+		3BDC61FA24ED270A00F8AFC0 /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDC61F924ED270A00F8AFC0 /* HelpView.swift */; };
+		3BDEB87324EBF62800922FC3 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDEB87224EBF62800922FC3 /* Settings.swift */; };
+		45422A48271A919000B39997 /* DeterminationHelp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45422A47271A919000B39997 /* DeterminationHelp.swift */; };
+		4570F0F225975F32008360DF /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4570F0F125975F32008360DF /* Model.swift */; };
+		4587558F2809A1E200FCC089 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4587558E2809A1E200FCC089 /* SplashView.swift */; };
+		458755932809B15500FCC089 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 458755922809B15500FCC089 /* Launch Screen.storyboard */; };
+		45875595280A6ED900FCC089 /* Devices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45875594280A6ED900FCC089 /* Devices.swift */; };
+		4592291E25BEAF17007200B2 /* NormalTempHelp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4592291D25BEAF17007200B2 /* NormalTempHelp.swift */; };
+		4592292125BEAF9A007200B2 /* MeasureTempHelp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4592292025BEAF9A007200B2 /* MeasureTempHelp.swift */; };
+		45A0B77B26F8C4290021AA5D /* UserOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A0B77A26F8C4290021AA5D /* UserOptions.swift */; };
+		45A0B77D26F8C6B40021AA5D /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A0B77C26F8C6B40021AA5D /* UserSettings.swift */; };
+		45A6AA322777564100FD9082 /* UserName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A6AA312777564100FD9082 /* UserName.swift */; };
+		45AEBB0A2755093400AF77F4 /* SwiftUIPager in Frameworks */ = {isa = PBXBuildFile; productRef = 45AEBB092755093400AF77F4 /* SwiftUIPager */; };
+		45D4E774270891FE0009582B /* LinerChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D4E773270891FE0009582B /* LinerChart.swift */; };
+		45FFE5452769FC8200796B05 /* PermissionsSwiftUIHealth in Frameworks */ = {isa = PBXBuildFile; productRef = 45FFE5442769FC8200796B05 /* PermissionsSwiftUIHealth */; };
+		45FFE5472769FC8200796B05 /* PermissionsSwiftUINotification in Frameworks */ = {isa = PBXBuildFile; productRef = 45FFE5462769FC8200796B05 /* PermissionsSwiftUINotification */; };
+		45FFE5492769FD0C00796B05 /* Authorization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FFE5482769FD0C00796B05 /* Authorization.swift */; };
+		CF7D6DC928126C3300BCAD09 /* TextFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7D6DC828126C3200BCAD09 /* TextFieldModifier.swift */; };
+		CF7D6DCB28126F1900BCAD09 /* TempFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7D6DCA28126F1900BCAD09 /* TempFieldView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		45CC738325BD3C5200B2CB7C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3B0705D824E97992003F6018 /* NormalTemp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormalTemp.swift; sourceTree = "<group>"; };
+		3B8B860124EA4B54003CFB21 /* FirstSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstSettings.swift; sourceTree = "<group>"; };
+		3B8B860424EA4B92003CFB21 /* AddFeverInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFeverInfo.swift; sourceTree = "<group>"; };
+		3BBE1D8424E961BF00928813 /* Fever Monitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fever Monitor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BBE1D8724E961BF00928813 /* Fever_MonitorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fever_MonitorApp.swift; sourceTree = "<group>"; };
+		3BBE1D8924E961BF00928813 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3BBE1D8B24E961C100928813 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3BBE1D8E24E961C100928813 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3BBE1D9024E961C100928813 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BBE1D9824E9626500928813 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		3BCE2F0224EE5B20006DCAF5 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		3BCE2F0424EE5B20006DCAF5 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		3BCE2F1624EE7404006DCAF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = Base; path = "Base.lproj/Fever Monitor.entitlements"; sourceTree = "<group>"; };
+		3BCE2F1924EE74A5006DCAF5 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = ja; path = "ja.lproj/Fever Monitor.entitlements"; sourceTree = "<group>"; };
+		3BCE2F1E24EE765E006DCAF5 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3BCE2F2224EE7861006DCAF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3BCE2F2324EE788C006DCAF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = en; path = "en.lproj/Fever Monitor.entitlements"; sourceTree = "<group>"; };
+		3BCE2F2624EF6D9A006DCAF5 /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		3BCE2F2824EF9880006DCAF5 /* Completion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Completion.swift; sourceTree = "<group>"; };
+		3BDC61F524ED26F100F8AFC0 /* NormalTempView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormalTempView.swift; sourceTree = "<group>"; };
+		3BDC61F724ED26FF00F8AFC0 /* Attributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attributes.swift; sourceTree = "<group>"; };
+		3BDC61F924ED270A00F8AFC0 /* HelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
+		3BDEB87224EBF62800922FC3 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		45422A47271A919000B39997 /* DeterminationHelp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeterminationHelp.swift; sourceTree = "<group>"; };
+		4570F0F125975F32008360DF /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		4587558E2809A1E200FCC089 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		458755922809B15500FCC089 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		45875594280A6ED900FCC089 /* Devices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Devices.swift; sourceTree = "<group>"; };
+		4592291D25BEAF17007200B2 /* NormalTempHelp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormalTempHelp.swift; sourceTree = "<group>"; };
+		4592292025BEAF9A007200B2 /* MeasureTempHelp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasureTempHelp.swift; sourceTree = "<group>"; };
+		45A0B77A26F8C4290021AA5D /* UserOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserOptions.swift; sourceTree = "<group>"; };
+		45A0B77C26F8C6B40021AA5D /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
+		45A6AA312777564100FD9082 /* UserName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserName.swift; sourceTree = "<group>"; };
+		45D4E773270891FE0009582B /* LinerChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinerChart.swift; sourceTree = "<group>"; };
+		45FFE5482769FD0C00796B05 /* Authorization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authorization.swift; sourceTree = "<group>"; };
+		CF7D6DC828126C3200BCAD09 /* TextFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldModifier.swift; sourceTree = "<group>"; };
+		CF7D6DCA28126F1900BCAD09 /* TempFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempFieldView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BBE1D8124E961BF00928813 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45FFE5472769FC8200796B05 /* PermissionsSwiftUINotification in Frameworks */,
+				45AEBB0A2755093400AF77F4 /* SwiftUIPager in Frameworks */,
+				45FFE5452769FC8200796B05 /* PermissionsSwiftUIHealth in Frameworks */,
+				3BBE1D9924E9626500928813 /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B0705D524E977C9003F6018 /* FirstSettings */ = {
+			isa = PBXGroup;
+			children = (
+				3B8B860124EA4B54003CFB21 /* FirstSettings.swift */,
+				45FFE5482769FD0C00796B05 /* Authorization.swift */,
+				45A0B77C26F8C6B40021AA5D /* UserSettings.swift */,
+				45A6AA312777564100FD9082 /* UserName.swift */,
+				3B0705D824E97992003F6018 /* NormalTemp.swift */,
+				3BCE2F2824EF9880006DCAF5 /* Completion.swift */,
+			);
+			path = FirstSettings;
+			sourceTree = "<group>";
+		};
+		3B8B860324EA4B74003CFB21 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				45875594280A6ED900FCC089 /* Devices.swift */,
+				4570F0F125975F32008360DF /* Model.swift */,
+				45D4E773270891FE0009582B /* LinerChart.swift */,
+				CF7D6DC828126C3200BCAD09 /* TextFieldModifier.swift */,
+				CF7D6DCA28126F1900BCAD09 /* TempFieldView.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		3BBE1D7B24E961BF00928813 = {
+			isa = PBXGroup;
+			children = (
+				3BBE1D8624E961BF00928813 /* Fever Monitor */,
+				3BBE1D8524E961BF00928813 /* Products */,
+				3BBE1D9724E9626500928813 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3BBE1D8524E961BF00928813 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BBE1D8424E961BF00928813 /* Fever Monitor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BBE1D8624E961BF00928813 /* Fever Monitor */ = {
+			isa = PBXGroup;
+			children = (
+				3BDEB87424EBF63000922FC3 /* Views */,
+				3B8B860324EA4B74003CFB21 /* Common */,
+				3BCE2F1724EE7404006DCAF5 /* Fever Monitor.entitlements */,
+				3BCE2F1F24EE765E006DCAF5 /* Localizable.strings */,
+				3BBE1D8724E961BF00928813 /* Fever_MonitorApp.swift */,
+				458755922809B15500FCC089 /* Launch Screen.storyboard */,
+				3BBE1D8B24E961C100928813 /* Assets.xcassets */,
+				3BBE1D9024E961C100928813 /* Info.plist */,
+				3BBE1D8D24E961C100928813 /* Preview Content */,
+			);
+			path = "Fever Monitor";
+			sourceTree = "<group>";
+		};
+		3BBE1D8D24E961C100928813 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3BBE1D8E24E961C100928813 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3BBE1D9724E9626500928813 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BBE1D9824E9626500928813 /* HealthKit.framework */,
+				3BCE2F0224EE5B20006DCAF5 /* WidgetKit.framework */,
+				3BCE2F0424EE5B20006DCAF5 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3BDC61F424ED26D200F8AFC0 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				3BDEB87224EBF62800922FC3 /* Settings.swift */,
+				3BDC61F524ED26F100F8AFC0 /* NormalTempView.swift */,
+				3BCE2F2624EF6D9A006DCAF5 /* Notification.swift */,
+				3BDC61F724ED26FF00F8AFC0 /* Attributes.swift */,
+				3BDC61F924ED270A00F8AFC0 /* HelpView.swift */,
+				45A0B77A26F8C4290021AA5D /* UserOptions.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		3BDEB87424EBF63000922FC3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4592291F25BEAF1B007200B2 /* Help */,
+				3BDC61F424ED26D200F8AFC0 /* Settings */,
+				3B0705D524E977C9003F6018 /* FirstSettings */,
+				3B8B860424EA4B92003CFB21 /* AddFeverInfo.swift */,
+				3BBE1D8924E961BF00928813 /* ContentView.swift */,
+				4587558E2809A1E200FCC089 /* SplashView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4592291F25BEAF1B007200B2 /* Help */ = {
+			isa = PBXGroup;
+			children = (
+				4592291D25BEAF17007200B2 /* NormalTempHelp.swift */,
+				4592292025BEAF9A007200B2 /* MeasureTempHelp.swift */,
+				45422A47271A919000B39997 /* DeterminationHelp.swift */,
+			);
+			path = Help;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BBE1D8324E961BF00928813 /* Fever Monitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BBE1D9324E961C100928813 /* Build configuration list for PBXNativeTarget "Fever Monitor" */;
+			buildPhases = (
+				3BBE1D8024E961BF00928813 /* Sources */,
+				3BBE1D8124E961BF00928813 /* Frameworks */,
+				3BBE1D8224E961BF00928813 /* Resources */,
+				45CC738325BD3C5200B2CB7C /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fever Monitor";
+			packageProductDependencies = (
+				45AEBB092755093400AF77F4 /* SwiftUIPager */,
+				45FFE5442769FC8200796B05 /* PermissionsSwiftUIHealth */,
+				45FFE5462769FC8200796B05 /* PermissionsSwiftUINotification */,
+			);
+			productName = "Fever Monitor";
+			productReference = 3BBE1D8424E961BF00928813 /* Fever Monitor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BBE1D7C24E961BF00928813 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					3BBE1D8324E961BF00928813 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = 3BBE1D7F24E961BF00928813 /* Build configuration list for PBXProject "Fever Monitor" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ja,
+			);
+			mainGroup = 3BBE1D7B24E961BF00928813;
+			packageReferences = (
+				45AEBB082755093400AF77F4 /* XCRemoteSwiftPackageReference "SwiftUIPager" */,
+				45FFE5432769FC8200796B05 /* XCRemoteSwiftPackageReference "PermissionsSwiftUI" */,
+			);
+			productRefGroup = 3BBE1D8524E961BF00928813 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BBE1D8324E961BF00928813 /* Fever Monitor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BBE1D8224E961BF00928813 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BBE1D8F24E961C100928813 /* Preview Assets.xcassets in Resources */,
+				3BCE2F1D24EE765E006DCAF5 /* Localizable.strings in Resources */,
+				458755932809B15500FCC089 /* Launch Screen.storyboard in Resources */,
+				3BBE1D8C24E961C100928813 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BBE1D8024E961BF00928813 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BDC61F624ED26F100F8AFC0 /* NormalTempView.swift in Sources */,
+				3B0705D924E97992003F6018 /* NormalTemp.swift in Sources */,
+				45D4E774270891FE0009582B /* LinerChart.swift in Sources */,
+				3B8B860224EA4B54003CFB21 /* FirstSettings.swift in Sources */,
+				CF7D6DCB28126F1900BCAD09 /* TempFieldView.swift in Sources */,
+				4592292125BEAF9A007200B2 /* MeasureTempHelp.swift in Sources */,
+				45A0B77B26F8C4290021AA5D /* UserOptions.swift in Sources */,
+				3B8B860524EA4B92003CFB21 /* AddFeverInfo.swift in Sources */,
+				3BBE1D8A24E961BF00928813 /* ContentView.swift in Sources */,
+				4592291E25BEAF17007200B2 /* NormalTempHelp.swift in Sources */,
+				45A0B77D26F8C6B40021AA5D /* UserSettings.swift in Sources */,
+				3BCE2F2924EF9880006DCAF5 /* Completion.swift in Sources */,
+				45FFE5492769FD0C00796B05 /* Authorization.swift in Sources */,
+				45422A48271A919000B39997 /* DeterminationHelp.swift in Sources */,
+				3BDC61FA24ED270A00F8AFC0 /* HelpView.swift in Sources */,
+				4570F0F225975F32008360DF /* Model.swift in Sources */,
+				45875595280A6ED900FCC089 /* Devices.swift in Sources */,
+				3BDC61F824ED26FF00F8AFC0 /* Attributes.swift in Sources */,
+				CF7D6DC928126C3300BCAD09 /* TextFieldModifier.swift in Sources */,
+				3BDEB87324EBF62800922FC3 /* Settings.swift in Sources */,
+				3BCE2F2724EF6D9A006DCAF5 /* Notification.swift in Sources */,
+				3BBE1D8824E961BF00928813 /* Fever_MonitorApp.swift in Sources */,
+				45A6AA322777564100FD9082 /* UserName.swift in Sources */,
+				4587558F2809A1E200FCC089 /* SplashView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3BCE2F1724EE7404006DCAF5 /* Fever Monitor.entitlements */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BCE2F1624EE7404006DCAF5 /* Base */,
+				3BCE2F1924EE74A5006DCAF5 /* ja */,
+				3BCE2F2324EE788C006DCAF5 /* en */,
+			);
+			name = "Fever Monitor.entitlements";
+			sourceTree = "<group>";
+		};
+		3BCE2F1F24EE765E006DCAF5 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BCE2F1E24EE765E006DCAF5 /* ja */,
+				3BCE2F2224EE7861006DCAF5 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3BBE1D9124E961C100928813 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3BBE1D9224E961C100928813 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BBE1D9424E961C100928813 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Fever Monitor/Base.lproj/Fever Monitor.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Fever Monitor/Preview Content\"";
+				DEVELOPMENT_TEAM = 94WA597YZM;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Fever Monitor/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Y.T.Fever-Monitor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3BBE1D9524E961C100928813 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Fever Monitor/Base.lproj/Fever Monitor.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Fever Monitor/Preview Content\"";
+				DEVELOPMENT_TEAM = 94WA597YZM;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Fever Monitor/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Y.T.Fever-Monitor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BBE1D7F24E961BF00928813 /* Build configuration list for PBXProject "Fever Monitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BBE1D9124E961C100928813 /* Debug */,
+				3BBE1D9224E961C100928813 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BBE1D9324E961C100928813 /* Build configuration list for PBXNativeTarget "Fever Monitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BBE1D9424E961C100928813 /* Debug */,
+				3BBE1D9524E961C100928813 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		45AEBB082755093400AF77F4 /* XCRemoteSwiftPackageReference "SwiftUIPager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/fermoya/SwiftUIPager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		45FFE5432769FC8200796B05 /* XCRemoteSwiftPackageReference "PermissionsSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jevonmao/PermissionsSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		45AEBB092755093400AF77F4 /* SwiftUIPager */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 45AEBB082755093400AF77F4 /* XCRemoteSwiftPackageReference "SwiftUIPager" */;
+			productName = SwiftUIPager;
+		};
+		45FFE5442769FC8200796B05 /* PermissionsSwiftUIHealth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 45FFE5432769FC8200796B05 /* XCRemoteSwiftPackageReference "PermissionsSwiftUI" */;
+			productName = PermissionsSwiftUIHealth;
+		};
+		45FFE5462769FC8200796B05 /* PermissionsSwiftUINotification */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 45FFE5432769FC8200796B05 /* XCRemoteSwiftPackageReference "PermissionsSwiftUI" */;
+			productName = PermissionsSwiftUINotification;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3BBE1D7C24E961BF00928813 /* Project object */;
+}
