@@ -2,17 +2,16 @@
 //  Fever_MonitorApp.swift
 //  Fever Monitor
 //
-//  Created by Yu Takahashi on 2020/08/16.
+//  Created by Yu Takahashi on 2022/06/07.
 //
 
 import SwiftUI
-import HealthKit
 
 @main
 struct Fever_MonitorApp: App {
     var body: some Scene {
         WindowGroup {
-            SplashView()
+            LaunchScreen()
         }
     }
 }
